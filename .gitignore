@@ -1,0 +1,10 @@
+# vscode folder
+.vscode/
+# jupyter 
+.ipynb_checkpoints/
+*.ipynb
+# python config
+__pycache__/
+# pycharm folder
+.idea/
+# files
