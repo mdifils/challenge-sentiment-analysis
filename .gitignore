@@ -8,3 +8,4 @@ __pycache__/
 # pycharm folder
 .idea/
 # files
+sentiment_analysis.py
