@@ -71,11 +71,15 @@ def main():
         st.header("Home")
 
         vader = "[VADER](https://github.com/cjhutto/vaderSentiment)"
+        github = "[GitHub](https://github.com/mdifils/challenge-sentiment-analysis)"
         string = f"""
         Welcome to **S**entiment **A**nalysis **A**pps. This apps uses a pre-trained **NLP** model ({vader}) to analyze text and extract the overal sentiment based on some key words.
         - Select **User Input** to enter your own sentence to be analyzed.
         - Select **Scrape Twitter** and provide an hastag (e.g. : *#blackpanther*). 10 tweets will be scraped (in real time) from Twitter and each of them will be analyzed.
         - Select **Squid Game** to analyze a database of more than 10000 tweets.
+
+
+        For more details, please visit my {github}.
         """
 
         st.write(string)
